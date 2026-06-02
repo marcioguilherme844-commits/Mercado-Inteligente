@@ -1,0 +1,22 @@
+package com.mercado.inteligente.model;
+
+public class ItemPedido {
+    private Produto produto;
+    private int quantidade;
+    private double precoUnitario;
+
+    public ItemPedido(Produto produto, int quantidade) {
+        this.produto = produto;
+        this.quantidade = quantidade;
+        this.precoUnitario = produto.getPreco();
+    }
+
+    public Produto getProduto() { return produto; }
+    public int getQuantidade() { return quantidade; }
+    public double getPrecoUnitario() { return precoUnitario; }
+    public double getSubtotal() { return precoUnitario * quantidade; }
+
+    public long getPedidoId() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
