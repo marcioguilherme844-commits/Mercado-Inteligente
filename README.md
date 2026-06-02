@@ -20,8 +20,7 @@ Sistema de gerenciamento de mercado com interface gráfica Swing.
  
 1. Clone o repositório
 2. Execute o arquivo `banco.sql` no MySQL
-3. Atualize usuário/senha no `ConexaoUtil.java`
-4. Dê duplo-clique em `run.bat`
+3. Dê duplo-clique em `MercadoInteligente.exe`
  
 ## Autores
 [Márcio Guilherme, Lucas Queroz]
